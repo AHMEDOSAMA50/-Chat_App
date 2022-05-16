@@ -1,0 +1,76 @@
+﻿  Chatroom.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\deque(558,1): error C2027: use of undefined type 'user'
+C:\Users\hamod\OneDrive\Desktop\chat_backend\user.h(9): message : see declaration of 'user'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\deque(600): message : see reference to class template instantiation 'std::_Deque_val<std::_Deque_simple_types<_Ty>>' being compiled
+          with
+          [
+              _Ty=user
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\stack(24): message : see reference to class template instantiation 'std::deque<user,std::allocator<user>>' being compiled
+C:\Users\hamod\OneDrive\Desktop\chat_backend\user.h(19): message : see reference to class template instantiation 'std::stack<user,std::deque<user,std::allocator<user>>>' being compiled
+C:\Users\hamod\OneDrive\Desktop\chat_backend\user.h(20,7): error C2065: 'Chatroom': undeclared identifier
+C:\Users\hamod\OneDrive\Desktop\chat_backend\user.h(20,2): error C2923: 'std::list': 'Chatroom' is not a valid template type argument for parameter '_Ty'
+C:\Users\hamod\OneDrive\Desktop\chat_backend\user.h(20): message : see declaration of 'Chatroom'
+C:\Users\hamod\OneDrive\Desktop\chat_backend\user.h(20,2): error C2976: 'std::list': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\list(754): message : see declaration of 'std::list'
+C:\Users\hamod\OneDrive\Desktop\chat_backend\Chatroom.h(27,14): error C2365: 'Chatroom::chatroom_typ': redefinition; previous definition was 'data member'
+C:\Users\hamod\OneDrive\Desktop\chat_backend\Chatroom.h(16): message : see declaration of 'Chatroom::chatroom_typ'
+C:\Users\hamod\OneDrive\Desktop\chat_backend\Message.h(8,1): error C2011: 'Message': 'class' type redefinition
+C:\Users\hamod\OneDrive\Desktop\chat_backend\Message.h(7): message : see declaration of 'Message'
+C:\Users\hamod\OneDrive\Desktop\chat_backend\Chatroom.cpp(25,1): error C2063: 'Chatroom::chatroom_typ': not a function
+  Message.cpp
+C:\Users\hamod\OneDrive\Desktop\chat_backend\Chatroom.h(18,13): error C2143: syntax error: missing ';' before '<'
+C:\Users\hamod\OneDrive\Desktop\chat_backend\Chatroom.h(18,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\hamod\OneDrive\Desktop\chat_backend\Chatroom.h(18,25): error C2238: unexpected token(s) preceding ';'
+C:\Users\hamod\OneDrive\Desktop\chat_backend\Chatroom.h(19,13): error C2143: syntax error: missing ';' before '<'
+C:\Users\hamod\OneDrive\Desktop\chat_backend\Chatroom.h(19,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\hamod\OneDrive\Desktop\chat_backend\Chatroom.h(19,31): error C2238: unexpected token(s) preceding ';'
+C:\Users\hamod\OneDrive\Desktop\chat_backend\Chatroom.h(27,14): error C2365: 'Chatroom::chatroom_typ': redefinition; previous definition was 'data member'
+C:\Users\hamod\OneDrive\Desktop\chat_backend\Chatroom.h(16): message : see declaration of 'Chatroom::chatroom_typ'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\deque(558,1): error C2027: use of undefined type 'user'
+C:\Users\hamod\OneDrive\Desktop\chat_backend\user.h(9): message : see declaration of 'user'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\deque(600): message : see reference to class template instantiation 'std::_Deque_val<std::_Deque_simple_types<_Ty>>' being compiled
+          with
+          [
+              _Ty=user
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\stack(24): message : see reference to class template instantiation 'std::deque<user,std::allocator<user>>' being compiled
+C:\Users\hamod\OneDrive\Desktop\chat_backend\user.h(19): message : see reference to class template instantiation 'std::stack<user,std::deque<user,std::allocator<user>>>' being compiled
+C:\Users\hamod\OneDrive\Desktop\chat_backend\Message.h(8,1): error C2011: 'Message': 'class' type redefinition
+C:\Users\hamod\OneDrive\Desktop\chat_backend\Message.h(7): message : see declaration of 'Message'
+C:\Users\hamod\OneDrive\Desktop\chat_backend\Message.cpp(5,10): error C2027: use of undefined type 'Message'
+C:\Users\hamod\OneDrive\Desktop\chat_backend\Message.h(7): message : see declaration of 'Message'
+C:\Users\hamod\OneDrive\Desktop\chat_backend\Message.cpp(6,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\hamod\OneDrive\Desktop\chat_backend\Message.cpp(7,1): warning C4508: '{ctor}': function should return a value; 'void' return type assumed
+C:\Users\hamod\OneDrive\Desktop\chat_backend\Message.cpp(8,15): error C2027: use of undefined type 'Message'
+C:\Users\hamod\OneDrive\Desktop\chat_backend\Message.h(7): message : see declaration of 'Message'
+C:\Users\hamod\OneDrive\Desktop\chat_backend\Message.cpp(12,14): error C2027: use of undefined type 'Message'
+C:\Users\hamod\OneDrive\Desktop\chat_backend\Message.h(7): message : see declaration of 'Message'
+C:\Users\hamod\OneDrive\Desktop\chat_backend\Message.cpp(17,15): error C2027: use of undefined type 'Message'
+C:\Users\hamod\OneDrive\Desktop\chat_backend\Message.h(7): message : see declaration of 'Message'
+C:\Users\hamod\OneDrive\Desktop\chat_backend\Message.cpp(21,14): error C2027: use of undefined type 'Message'
+C:\Users\hamod\OneDrive\Desktop\chat_backend\Message.h(7): message : see declaration of 'Message'
+  program.cpp
+C:\Users\hamod\OneDrive\Desktop\chat_backend\server.h(78,62): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\hamod\OneDrive\Desktop\chat_backend\server.h(97,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\hamod\OneDrive\Desktop\chat_backend\server.h(114,57): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\hamod\OneDrive\Desktop\chat_backend\program.cpp(6,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  user.cpp
+C:\Users\hamod\OneDrive\Desktop\chat_backend\Chatroom.h(18,13): error C2143: syntax error: missing ';' before '<'
+C:\Users\hamod\OneDrive\Desktop\chat_backend\Chatroom.h(18,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\hamod\OneDrive\Desktop\chat_backend\Chatroom.h(18,25): error C2238: unexpected token(s) preceding ';'
+C:\Users\hamod\OneDrive\Desktop\chat_backend\Chatroom.h(19,13): error C2143: syntax error: missing ';' before '<'
+C:\Users\hamod\OneDrive\Desktop\chat_backend\Chatroom.h(19,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\hamod\OneDrive\Desktop\chat_backend\Chatroom.h(19,31): error C2238: unexpected token(s) preceding ';'
+C:\Users\hamod\OneDrive\Desktop\chat_backend\Chatroom.h(27,14): error C2365: 'Chatroom::chatroom_typ': redefinition; previous definition was 'data member'
+C:\Users\hamod\OneDrive\Desktop\chat_backend\Chatroom.h(16): message : see declaration of 'Chatroom::chatroom_typ'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\deque(558,1): error C2027: use of undefined type 'user'
+C:\Users\hamod\OneDrive\Desktop\chat_backend\user.h(9): message : see declaration of 'user'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\deque(600): message : see reference to class template instantiation 'std::_Deque_val<std::_Deque_simple_types<_Ty>>' being compiled
+          with
+          [
+              _Ty=user
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\stack(24): message : see reference to class template instantiation 'std::deque<user,std::allocator<user>>' being compiled
+C:\Users\hamod\OneDrive\Desktop\chat_backend\user.h(19): message : see reference to class template instantiation 'std::stack<user,std::deque<user,std::allocator<user>>>' being compiled
+  Generating Code...
