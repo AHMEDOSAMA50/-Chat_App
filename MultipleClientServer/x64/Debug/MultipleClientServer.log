@@ -1,8 +1,0 @@
-﻿  server.cpp
-D:\MultipleClientServer\server.cpp(15,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
-D:\MultipleClientServer\server.cpp(92,62): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-D:\MultipleClientServer\server.cpp(110,23): warning C4018: '<': signed/unsigned mismatch
-D:\MultipleClientServer\server.cpp(129,57): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-D:\MultipleClientServer\server.cpp(18,11): warning C4101: 'db': unreferenced local variable
-LINK : warning LNK4067: ambiguous entry point; selected 'mainCRTStartup'
-  MultipleClientServer.vcxproj -> D:\MultipleClientServer\x64\Debug\MultipleClientServer.exe
