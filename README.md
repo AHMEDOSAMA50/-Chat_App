@@ -1,6 +1,14 @@
 # Chat_App
 
 
+# steps to run
+
+you will download MultipleClientServer.exe and ChatApplication.exe but first go to home.cs file and change the ip address to yours 
+in line 27 . for this little change you gotta rebuild the chat_application again and then your ready to run!. 
+
+
+
+
 # **log in** 
 
  <img src = "https://user-images.githubusercontent.com/94145850/171448657-1d8e213a-a13f-46ff-8d2c-bce6155d4a26.png" width="2100" height="600"/>
